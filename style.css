@@ -86,7 +86,6 @@ body {
     padding: 12px 0 12px 35px;
     border-top: 1px solid grey;
     z-index: -9999;
-    top: 
 }
 #option div:hover{
     background: grey;
@@ -97,7 +96,6 @@ body {
 #option.active{
     display: block;
     margin-top: 0px;
-    backgrou
 }
 #option a{
     color: black;
@@ -139,41 +137,15 @@ body {
     height: 200px;
     margin: 20px auto;
     border-radius: 8px;
-    background: #F5F5F5;
+    background: whitesmoke;
     color: black;
     font-size: 18px;
     text-align: center;
     display: block;
 }
-#services .box .icon{
-    background: #0000CD;
-    opacity: 0.6;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 20px auto;
+#services .box:hover{
+    border: 1px solid grey;
 }
-
-
-
-
-#about{
-    height: 100vh;
-    border-bottom: 1px solid grey;
+#services .box .text{
+    padding-top: 160px;
 }
-#about img{
-    width: 100%;
-    height: 250px;
-}
-#reason{
-    height: 100vh;
-    border-bottom: 1px solid grey;
-}
-#register{
-    height: 100vh;
-    border-bottom: 1px solid grey;
-}
-#login{
-    height: 100vh;
-    border-bottom: 1px solid grey;
-    }
