@@ -7,7 +7,7 @@ body{
     background: white;
     border-radius: 5px;
     display: block;
-    margin: auto;
+    margin: 30px auto;
     height: 450px;
     width: 320px;
 }
@@ -15,7 +15,7 @@ body{
     text-align: center;
     color: #0000CD;
     margin: 0px auto 7px auto;
-    padding-top: 40px;
+    padding-top: 44px;
 }
 #main h2{
     text-align: center;
@@ -24,18 +24,25 @@ body{
 #main label{
     display: block;
     font-size: 18px;
-    margin: 8px 0 5px 10px;
+    margin: 8px 0 5px 20px;
 }
 #main input{
-    padding: 8px 10px;
-    margin: auto 10px 10px 10px;
+    padding: 9px 10px;
+    margin: auto 10px 10px 20px;
     border-radius: 4px;
-    width: 80%;
+    font-size: 18px;
+    width: 78%;
     border: 1.2px solid grey;
 }
-#main a{
-    margin: 8px 10px;
-    color: lightblue;
+#main input:focus{
+    border: none;
+    outline-width: 1px;
+    outline-color: blue;
+}
+#main form .forgot-password{
+    display: block;
+    padding: 15px 20px 4px;
+    color: blue;
 }
 #main button{
     border: none;
@@ -44,11 +51,11 @@ body{
     background: #138808;
     border-radius: 4px;
     display: block;
-    margin: 10px
+    margin: 8px 20px 20px;
 }
 #main button:hover{
     transform: scale(1.2);
 }
 #main p{
-    margin: 10px 10px;
+    margin: 10px 20px;
 }
