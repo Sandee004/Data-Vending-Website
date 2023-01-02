@@ -1,28 +1,54 @@
 body{
     background: #0000CD;
     color: black;
+    font-family: "DM Sans", sans serif;
 }
 #main{
     background: white;
     border-radius: 5px;
     display: block;
     margin: auto;
-    height: 480px;
+    height: 450px;
     width: 320px;
+}
+#main h1{
+    text-align: center;
+    color: #0000CD;
+    margin: 0px auto 7px auto;
+    padding-top: 40px;
 }
 #main h2{
     text-align: center;
-    color: #0000CD;
-    margin: 30px auto 15px auto;
-}
-#main h3{
-    text-align: center;
-    margin: auto auto 15px auto;
+    margin: 0 auto 15px auto;
 }
 #main label{
     display: block;
     font-size: 18px;
-    margin: 5px 0 5px 10px;
+    margin: 8px 0 5px 10px;
 }
 #main input{
-    padding: 
+    padding: 8px 10px;
+    margin: auto 10px 10px 10px;
+    border-radius: 4px;
+    width: 80%;
+    border: 1.2px solid grey;
+}
+#main a{
+    margin: 8px 10px;
+    color: lightblue;
+}
+#main button{
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    background: #138808;
+    border-radius: 4px;
+    display: block;
+    margin: 10px
+}
+#main button:hover{
+    transform: scale(1.2);
+}
+#main p{
+    margin: 10px 10px;
+}
