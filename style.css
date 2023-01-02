@@ -159,7 +159,7 @@ a{
     line-height: 45px;
 }
 #more-info p{
-    line-height: 38px;
+    line-height: 32px;
     font-size: 18px;
 }
 #more-info a button{
@@ -187,5 +187,19 @@ a{
 }
 #why-us p{
     margin: 8px 24px;
+    line-height: 32px;
+}
+#why-us ul{
+    line-height: 32px;
+}
+    
+
+
+#sell-point h2{
+    margin: 40px 24px 10px 24px;
+    color: #0000CD;
+}
+#sell-point p{
+    margin: auto 24px 30px 24px;
     line-height: 32px;
 }
