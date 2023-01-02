@@ -132,6 +132,12 @@ body {
     color: white;
 }
 
+
+#services h1{
+    text-align: center;
+    color: #0000CD;
+    margin: 25px auto 15px auto;
+}
 #services .box{
     width: 79%;
     height: 195px;
@@ -146,8 +152,21 @@ body {
 }
 #services .box:hover{
     border: 1px solid grey;
-    transform: scale(1.03);
 }
 #services .box .text{
     padding-top: 160px;
+}
+
+
+#more-info{
+    color: black;
+    margin: 15px 25px;
+}
+#more-info h2{
+    line-height: 45px;
+    padding-top: 15px;
+}
+#more-info p{
+    line-height: 38px;
+    font-size: 18px;
 }
