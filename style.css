@@ -27,7 +27,7 @@ body {
     background: white;
 }
 .logo {
-    background: #138808;
+    background: #0000CD;
     border-radius: 50%;
     margin: 5px 30px;
     height: 40px;
@@ -133,8 +133,8 @@ body {
 }
 
 #services .box{
-    width: 80%;
-    height: 200px;
+    width: 79%;
+    height: 195px;
     margin: 20px auto;
     border-radius: 8px;
     background: whitesmoke;
@@ -142,9 +142,11 @@ body {
     font-size: 18px;
     text-align: center;
     display: block;
+    transition: 0.3s;
 }
 #services .box:hover{
     border: 1px solid grey;
+    transform: scale(1.03);
 }
 #services .box .text{
     padding-top: 160px;
