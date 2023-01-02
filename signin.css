@@ -1,7 +1,8 @@
 body{
     background: #0000CD;
+    color: black;
 }
-.main{
+#main{
     background: white;
     border-radius: 5px;
     display: block;
@@ -12,5 +13,16 @@ body{
 #main h2{
     text-align: center;
     color: #0000CD;
-    
+    margin: 30px auto 15px auto;
 }
+#main h3{
+    text-align: center;
+    margin: auto auto 15px auto;
+}
+#main label{
+    display: block;
+    font-size: 18px;
+    margin: 5px 0 5px 10px;
+}
+#main input{
+    padding: 
