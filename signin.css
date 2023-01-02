@@ -4,7 +4,13 @@ body{
 .main{
     background: white;
     border-radius: 5px;
+    display: block;
     margin: auto;
-    height: 65%;
-    width: 60%;
+    height: 480px;
+    width: 320px;
+}
+#main h2{
+    text-align: center;
+    color: #0000CD;
+    
 }
