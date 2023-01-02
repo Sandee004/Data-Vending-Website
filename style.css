@@ -85,6 +85,7 @@ a{
     padding: 12px 0 12px 35px;
     border-top: 1px solid grey;
     z-index: -9999;
+    color: black;
 }
 #option div:hover{
     background: grey;
@@ -191,12 +192,18 @@ a{
 }
 #why-us ul{
     line-height: 32px;
+    color: #0000CD;
+    font-weight: 550;
 }
     
 
-
+#sell-point img{
+    width: 100%;
+    height: 250px;
+    margin-top: 40px;
+}
 #sell-point h2{
-    margin: 40px 24px 10px 24px;
+    margin: 25px 24px 10px 24px;
     color: #0000CD;
 }
 #sell-point p{
