@@ -60,10 +60,8 @@ body{
 #registration a{
     color: blue;
 }
-#error-message{
+.error-message{
     margin: 0 0 0 20px;
     color: red;
     font-size: 15px;
-    visibility: none;
-    
 }

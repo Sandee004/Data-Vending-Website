@@ -19,17 +19,19 @@
 
         <form>
             <label>FullName</label>
-            <input>
+            <input id="fullname">
+            <p class="error-message" id="fullname_error"></p>
 
             <label>Username</label>
             <input>
+            <p class="error-message"></p>
         
             <label>Email</label>
             <input type="email">
 
             <label>Phone</label>
             <input type="tel">
-            <p id="error-message">Passwords do not match</p>
+            <p class="error-message" id="phone_error"></p>
 
             <label>Address</label>
             <input>
@@ -39,10 +41,11 @@
 
             <label>Password</label>
             <input type="password" id="password">
+            <p class="error-message" id="password_error"></p>
 
             <label>Confirm password</label>
             <input type="password" id="confirm_password">
-            <p id="error-message">Passwords do not match</p>
+            <p class="error-message" id="confirm_error"></p>
             
             <button id="submit">Submit</button>
         </form>
@@ -50,4 +53,4 @@
         <p class="membership">Already a member? <a href="login.html">Sign In</a></p>
     </div>
 <script src="register.js"></script>
-        </body>
+</body>
