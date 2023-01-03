@@ -23,12 +23,12 @@ body{
 #registration label{
     display: block;
     font-size: 18px;
-    margin: 8px 0 5px 20px;
+    margin: 16px 0 1px 20px;
     font-weight: 500;
 }
 #registration input{
     padding: 9px 10px;
-    margin: auto 10px 10px 20px;
+    margin: auto 10px 5px 20px;
     border-radius: 4px;
     font-size: 18px;
     width: 78%;
@@ -52,11 +52,18 @@ body{
 #registration button:hover{
     transform: scale(1.1);
 }
-#registration p{
+#registration .membership{
     margin: 10px 20px;
     padding-bottom: 20px;
     text-align: center;
 }
 #registration a{
     color: blue;
+}
+#error-message{
+    margin: 0 0 0 20px;
+    color: red;
+    font-size: 15px;
+    visibility: none;
+    
 }

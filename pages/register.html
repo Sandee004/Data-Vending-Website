@@ -28,7 +28,8 @@
             <input type="email">
 
             <label>Phone</label>
-            <input type="tel" >
+            <input type="tel">
+            <p id="error-message">Passwords do not match</p>
 
             <label>Address</label>
             <input>
@@ -41,21 +42,12 @@
 
             <label>Confirm password</label>
             <input type="password" id="confirm_password">
+            <p id="error-message">Passwords do not match</p>
             
             <button id="submit">Submit</button>
         </form>
 
-        <p>Already a member? <a href="login.html">Sign In</a></p>
+        <p class="membership">Already a member? <a href="login.html">Sign In</a></p>
     </div>
-<script>
-    var password= document.getElementById('password');
-var confirmation= document.getElementById('confirm_password');
-var submit= document.getElementById('submit');
-
-submit.addEventListener("click", function(ev) {
-   // Prevent the default behaviour (page reload)
-  ev.preventDefault()
-  alert("Passwords do not match")
-})
-</script>
+<script src="register.js"></script>
         </body>
