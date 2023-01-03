@@ -25,6 +25,7 @@ body{
     display: block;
     font-size: 18px;
     margin: 8px 0 5px 20px;
+    font-weight: 550;
 }
 #main input{
     padding: 9px 10px;
