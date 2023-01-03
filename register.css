@@ -3,30 +3,29 @@ body{
     color: black;
     font-family: "DM Sans", sans serif;
 }
-#main{
+#registration{
     background: white;
     border-radius: 5px;
     display: block;
     margin: 30px auto;
-    height: 450px;
     width: 320px;
 }
-#main h1{
+#registration h1{
     text-align: center;
     color: #0000CD;
     margin: 0px auto 7px auto;
     padding-top: 44px;
 }
-#main h2{
+#registration h2{
     text-align: center;
     margin: 0 auto 15px auto;
 }
-#main label{
+#registration label{
     display: block;
     font-size: 18px;
     margin: 8px 0 5px 20px;
 }
-#main input{
+#registration input{
     padding: 9px 10px;
     margin: auto 10px 10px 20px;
     border-radius: 4px;
@@ -34,17 +33,12 @@ body{
     width: 78%;
     border: 1.2px solid grey;
 }
-#main input:focus{
+#registration input:focus{
     border: none;
     outline-width: 1px;
     outline-color: blue;
 }
-#main form .forgot-password{
-    display: block;
-    padding: 15px 20px 4px;
-    color: blue;
-}
-#main button{
+#registration button{
     border: none;
     padding: 8px 10px;
     color: white;
@@ -52,10 +46,16 @@ body{
     border-radius: 4px;
     display: block;
     margin: 8px 20px 20px;
+    font-size: 18px;
 }
-#main button:hover{
-    transform: scale(1.2);
+#registration button:hover{
+    transform: scale(1.1);
 }
-#main p{
+#registration p{
     margin: 10px 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#registration a{
+    color: blue;
 }
