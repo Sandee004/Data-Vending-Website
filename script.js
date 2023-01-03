@@ -23,7 +23,10 @@ toggle.addEventListener('click', function() {
 //To check if passwords match
 var password= document.document.getElementById('password');
 var confirmation= document.getElementById('confirm_password');
+var reg_btn= document.getElementById('submit');
 
-if (confirmation.value != password) {
-    alert("Passwords do not match")
+reg_btn.addEventListener("click", function() {
+    if (confirmation.value != password.value) {
+        alert("Passwords do not match")
+    }
 }
