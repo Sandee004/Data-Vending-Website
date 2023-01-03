@@ -47,5 +47,15 @@
 
         <p>Already a member? <a href="login.html">Sign In</a></p>
     </div>
-<script src="script.js"></script>
-</body>
+<script>
+    var password= document.getElementById('password');
+var confirmation= document.getElementById('confirm_password');
+var submit= document.getElementById('submit');
+
+submit.addEventListener("click", function(ev) {
+   // Prevent the default behaviour (page reload)
+  ev.preventDefault()
+  alert("Passwords do not match")
+})
+</script>
+        </body>
