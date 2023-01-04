@@ -68,3 +68,9 @@ body{
 #password_error{
     color: grey;
 }
+#eye_icon{
+    position: absolute;
+    z-index: 9999;
+    
+    
+}
