@@ -65,3 +65,6 @@ body{
     color: red;
     font-size: 15px;
 }
+#password_error{
+    color: grey;
+}
