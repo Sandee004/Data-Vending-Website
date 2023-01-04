@@ -13,8 +13,8 @@ var tel_error= document.getElementById('tel_error');
 var password= document.getElementById('password');
 var password_error= document.getElementById('password_error');
 
-
 var confirmation= document.getElementById('confirm_password');
+var confirm_error= document.getElementById('confirm_error');
 var submit= document.getElementById('submit');
 
 submit.addEventListener("click", function(ev) {
@@ -55,7 +55,7 @@ submit.addEventListener("click", function(ev) {
     }
 
     //Phone number Validation 
-    if (tel.value == "" || tel.length < 11 || tel.length > 11) {
+    if (tel.value == "" || tel.value.length < 11 || tel.length > 11) {
         ev.preventDefault()
         tel.style.borderColor="red"
         tel_error.innerHTML= "Enter valid phone number"
@@ -67,7 +67,7 @@ submit.addEventListener("click", function(ev) {
      }
 
     //Password Validation
-    if (password.value == "" || password.length < 8) {
+    if (password.value == "" || password.value.length < 8) {
         ev.preventDefault()
         password.style.borderColor="red"
         password_error.style.color= "red"
@@ -79,4 +79,18 @@ submit.addEventListener("click", function(ev) {
         }))
      alert("Useless line of code")
      }
+
+    //Password Confirmation
+    if (confirmation.value !== password.value) {
+        ev.preventDefault()
+        confirmation.style.borderColor="red"
+        confirm_error.style.color= "red"
+        confirm_error.innerHTML= "Passwords do not match"
+        if (confirmation.addEventListener("focus", function() {
+            confirmation.style.borderColor="grey"
+            confirm_error.innerHTML= ""
+            confirm_error.style.color= "grey"
+        }))
+     alert("Useless line of code")
+    }
 })
