@@ -68,9 +68,9 @@ body{
 #password_error{
     color: grey;
 }
-#eye_icon{
+#eye-icon1, #eye-icon2{
     position: absolute;
-    z-index: 9999;
-    
-    
+    width: 25px;
+    height: 25px;
+    margin: 4px 0 0 -45px;    
 }

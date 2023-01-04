@@ -15,7 +15,23 @@ var password_error= document.getElementById('password_error');
 
 var confirmation= document.getElementById('confirm_password');
 var confirm_error= document.getElementById('confirm_error');
+
+const togglePassword= document.getElementById('eye-icon1');
+const toggleConfirmPassword= document.getElementById('eye-icon2');
 var submit= document.getElementById('submit');
+
+togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type1 = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type1)
+        });
+
+toggleConfirmPassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type2 = confirmation.getAttribute("type") === "password" ? "text" : "password";
+            confirmation.setAttribute("type", type2)
+        });
+
 
 submit.addEventListener("click", function(ev) {
     //Fullname Validation
