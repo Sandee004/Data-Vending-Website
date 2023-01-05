@@ -81,7 +81,7 @@ submit.addEventListener("click", function(ev) {
         }))
      alert("Useless line of code")
      }
-
+    
     //Password Validation
     if (password.value == "" || password.value.length < 8) {
         ev.preventDefault()
@@ -108,5 +108,9 @@ submit.addEventListener("click", function(ev) {
             confirm_error.style.color= "grey"
         }))
      alert("Useless line of code")
+    }
+
+    if(fullname.value !== "" && username.value !== "" && email.value !== "" && tel.value !== "" && tel.value.length == 11 && password.value.length >= 8 && confirmation.value == password.value){
+      window.open("homepage.html", "_self")
     }
 })
