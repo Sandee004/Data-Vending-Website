@@ -19,5 +19,3 @@ toggle.addEventListener('click', function() {
     toggle.classList.toggle('active')
     options.classList.toggle('active')
 })
-
-//To check if passwords match
