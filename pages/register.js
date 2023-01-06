@@ -117,13 +117,7 @@ submit.addEventListener("click", function(ev) {
 
         localStorage.setItem("user-name", username.value)
         localStorage.setItem("user-pass", password.value)
-        var nameInStorage= localStorage.getItem("user-name")
-        var passInStorage= localStorage.getItem("user-pass")
-
         
     }
 })
-
-
-export{nameInStorage, passInStorage}
 

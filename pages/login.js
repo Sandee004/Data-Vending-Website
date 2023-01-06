@@ -1,12 +1,16 @@
-import {nameInStorage, passInStorage} from 'register.js'
-var User= document.getElementById('Username');
+    var User= document.getElementById('Username');
 var Password= document.getElementById('Password');
-var enter= document.getElementById('enter');
+var login= document.getElementById('button');
+var nameInStorage= localStorage.getItem("user-name")
+var passInStorage= localStorage.getItem("user-pass")
 
-//Trying to test if it's working. Seems its not getting the variable
-enter.addEventListener("click", function(ev) {
-    if (User.value == nameInStorage) {
+login.addEventListener("click", function(ev) {
+    if (User.value == nameInStorage && Password.value == passInStorage){
     ev.preventDefault()
-    alert("Check")
-}
-}
+    window.open("homepage.html", "_self");
+    }
+    else{
+        ev.preventDefault()
+        alert('Invalid Credentials')
+    }
+                })
