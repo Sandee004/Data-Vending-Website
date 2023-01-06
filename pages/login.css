@@ -7,8 +7,7 @@ body{
     background: white;
     border-radius: 5px;
     display: block;
-    margin: 30px auto;
-    height: 450px;
+    margin: 40px auto;
     width: 320px;
 }
 #main h1{
@@ -24,12 +23,12 @@ body{
 #main label{
     display: block;
     font-size: 18px;
-    margin: 8px 0 5px 20px;
+    margin: 16px 0 1px 20px;
     font-weight: 550;
 }
 #main input{
     padding: 9px 10px;
-    margin: auto 10px 10px 20px;
+    margin: auto 10px 5px 20px;
     border-radius: 4px;
     font-size: 18px;
     width: 78%;
@@ -59,6 +58,14 @@ body{
 #main button:hover{
     transform: scale(1.1);
 }
-#main p{
+#main .create-account{
     margin: 10px 20px;
+    padding-bottom: 30px;
+    
 }
+.error-message{
+    margin: 0 0 0 20px;
+    color: red;
+    font-size: 15px;
+}
+#
