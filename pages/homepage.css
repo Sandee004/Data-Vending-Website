@@ -1,5 +1,7 @@
 html{
     scroll-behavior: smooth;
+    font-family: DM ;
+    
 }
 body{
     background: ghostwhite;
@@ -12,8 +14,22 @@ body{
 }
 .top-section .navbar{
     background: #1F305E; /*#002244;*/
-    height: 50px;
-}
-i{
     color: white;
-}{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 80px;
+}
+#menu-bars{
+    font-size: 30px;
+    margin: auto 20px;
+}
+#menu-ellipse{
+    font-size: 30px;
+    margin: auto 20px;
+}
+h2{
+    text-align: center;
+    display: inline;
+}
+    
