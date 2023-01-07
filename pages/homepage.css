@@ -4,7 +4,7 @@ html{
     
 }
 body{
-    background: ghostwhite;
+    background: whitesmoke;
     margin: 0;
 }
 .top-section{
@@ -16,9 +16,10 @@ body{
     background: #1F305E; /*#002244;*/
     color: white;
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 80px;
+    flex-wrap: nowrap;
+    width: 400px;
+    flex-basis: 100%;
+    
 }
 #menu-bars{
     font-size: 30px;
@@ -32,4 +33,12 @@ h2{
     text-align: center;
     display: inline;
 }
-    
+.mid-bod{
+    height: 500px;
+    background: white;
+    width: 90%;
+    border-radius: 6px;
+}
+.mid-bod p{
+    color: #0E3386;
+}
