@@ -55,36 +55,17 @@ hr{
     margin: auto;
     background: #1F305E;
 }
-.service{
-    display: grid;
-    grid-template-columns: (3, 1fr);
-    
-    row-gap: 10px;
-    column-gap: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
+.groups{
+    background: yellow;
+    width: 90%;
+    height: 450px;
+    display: flex;
+    margin: 12px 15px;
 }
-.boxes{
+.red{
+    background: green;
     width: 150px;
     height: 160px;
-    background: red;
-    
+    margin: 15px 20px;
 }
-
-    
-/*.service{
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
-    column-gap: 5px;
-    flex-wrap: wrap;
-    }
-.box{
-    width: 100px;
-    height: 160px;
-    background: white;
-    border-radius: 5px;
-}
-*/
-
     
