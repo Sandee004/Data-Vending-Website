@@ -40,7 +40,7 @@ body{
     height: 500px;
     background: white;
     width: 90%;
-    margin: -30px auto 0 auto;
+    margin: -30px auto 15px auto;
     border-radius: 6px;
     border: 1px solid grey;
 }
@@ -50,3 +50,41 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
+hr{
+    width: 90%;
+    margin: auto;
+    background: #1F305E;
+}
+.service{
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.boxes{
+    width: 150px;
+    height: 160px;
+    background: red;
+    
+}
+
+    
+/*.service{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    column-gap: 5px;
+    flex-wrap: wrap;
+    }
+.box{
+    width: 100px;
+    height: 160px;
+    background: white;
+    border-radius: 5px;
+}
+*/
+
+    
