@@ -1,7 +1,6 @@
 html{
     scroll-behavior: smooth;
-    font-family: DM ;
-    
+    font-family: "DM Sans", Sans-serif;
 }
 body{
     background: whitesmoke;
@@ -17,28 +16,37 @@ body{
     color: white;
     display: flex;
     flex-wrap: nowrap;
-    width: 400px;
-    flex-basis: 100%;
-    
+    width: 100%;
+    gap: 90px;
 }
 #menu-bars{
     font-size: 30px;
-    margin: auto 20px;
+    margin: auto 0 auto 15px;
 }
 #menu-ellipse{
     font-size: 30px;
-    margin: auto 20px;
+    margin: auto 15px auto 0;
 }
-h2{
+.navbar h2{
     text-align: center;
-    display: inline;
+}
+.top-section .welcome{
+    color: white;
+    margin: 60px 15px;
+    font-size: 25px;
+    font-weight: 700;
 }
 .mid-bod{
     height: 500px;
     background: white;
     width: 90%;
+    margin: -30px auto 0 auto;
     border-radius: 6px;
+    border: 1px solid grey;
 }
-.mid-bod p{
+.mid-bod #introduction{
     color: #0E3386;
+    margin: 12px 15px;
+    font-size: 18px;
+    font-weight: 500;
 }
