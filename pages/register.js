@@ -112,7 +112,7 @@ submit.addEventListener("click", function(ev) {
 
     if(fullname.value !== "" && username.value !== "" && email.value !== "" && tel.value !== "" && tel.value.length == 11 && password.value.length >= 8 && confirmation.value == password.value){
        ev.preventDefault()
-       window.open("homepage.html", "_self")
+       window.open("dashboard.html", "_self")
 
 
         localStorage.setItem("user-name", username.value)
