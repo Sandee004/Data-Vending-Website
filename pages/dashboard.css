@@ -21,11 +21,11 @@ body{
 }
 #menu-bars{
     font-size: 30px;
-    margin: auto 0 auto 15px;
+    margin: auto 20px auto 15px;
 }
 #menu-ellipse{
     font-size: 30px;
-    margin: auto 15px auto 0;
+    margin: auto 15px auto 20px;
 }
 .navbar h2{
     text-align: center;
@@ -56,16 +56,17 @@ hr{
     background: #1F305E;
 }
 .groups{
-    background: yellow;
     width: 90%;
     height: 450px;
     display: flex;
-    margin: 12px 15px;
+    flex-wrap: wrap;
+    margin: 12px auto;
+    column-gap: 40px;
 }
-.red{
-    background: green;
-    width: 150px;
-    height: 160px;
-    margin: 15px 20px;
+.box{
+    background: ghostwhite;
+    width: 140px;
+    height: 150px;
+    border-radius: 5px;
 }
     
