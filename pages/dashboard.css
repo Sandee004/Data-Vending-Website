@@ -90,17 +90,15 @@ body{
     text-align: center;
 }
 .top-section{
-    border: 2px solid yellow;
-    padding-top: 120px 15px;
+    padding: 120px 0px 70px 15px;
     color: white;
-    
 }
 .top-section .welcome{
-    color: white;
-    
-    
     font-size: 25px;
     font-weight: 700;
+}
+.top-section .referral{
+    margin: 0 40px 0 0;
 }
 .mid-bod{
     height: 500px;
@@ -108,11 +106,12 @@ body{
     width: 90%;
     margin: -30px auto 15px auto;
     border-radius: 6px;
+    padding-left: 15px;
     border: 1px solid grey;
 }
 .mid-bod #introduction{
     color: #0E3386;
-    margin: 12px 15px;
+    margin: 12px 0px;
     font-size: 18px;
     font-weight: 500;
 }
