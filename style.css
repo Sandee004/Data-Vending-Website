@@ -107,13 +107,13 @@ a{
 }
 .first-bod p{
     margin: 15px 24px 20px 24px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
 }
 .first-bod a button{
     padding: 9px 8px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     color: #138808;
     font-weight: 500;
     width: 90px;
@@ -125,8 +125,11 @@ a{
     background: #138808;
     color: white;
 }
-
-
+.first-bod .playstore{
+    width: 160px;
+    height: 90px;
+    margin: auto 20px;
+}
 #services h1{
     text-align: center;
     color: #0000CD;
@@ -142,6 +145,9 @@ a{
     text-align: center;
     display: block;
     transition: 0.3s;
+bac: #D1D8EC;
+-webkit-box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
+box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
 }
 #services .box:hover{
     border: 1px solid grey;

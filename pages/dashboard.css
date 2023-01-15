@@ -106,7 +106,7 @@ body{
     width: 90%;
     margin: -30px auto 15px auto;
     border-radius: 6px;
-    padding-left: 15px;
+    text-indent: 15px;
     border: 1px solid grey;
 }
 .mid-bod #introduction{
@@ -119,6 +119,12 @@ hr{
     width: 90%;
     margin: auto;
     background: #1F305E;
+}
+.mid-bod img{
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin: auto;
 }
 .groups{
     width: 90%;
