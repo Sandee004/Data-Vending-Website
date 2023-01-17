@@ -126,7 +126,7 @@ a{
     color: white;
 }
 .first-bod .playstore{
-    width: 160px;
+    width: 170px;
     height: 90px;
     margin: auto 20px;
 }
@@ -145,13 +145,10 @@ a{
     text-align: center;
     display: block;
     transition: 0.3s;
-bac: #D1D8EC;
 -webkit-box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
 box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
 }
-#services .box:hover{
-    border: 1px solid grey;
-}
+
 #services .box svg{
     background: ghostwhite;
     border-radius: 50%;
