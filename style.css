@@ -125,9 +125,9 @@ a{
     background: #138808;
     color: white;
 }
-.first-bod .playstore{
-    width: 170px;
-    height: 90px;
+ .playstore{
+    width: 240px;
+    height: 140px;
     margin: auto 20px;
 }
 #services h1{

@@ -66,28 +66,29 @@ body{
     background: #1F305E;
     height: 100vh;
     transition: 0.5s;
-    text-align: center;
+    text-align: left;
   }
 .navbar #option ul{
-    margin-top: 60px;
+    margin: 60px auto auto 60px;
 }
 .navbar #option ul li {
     list-style: none;
     display: inline-block;
-    width: 100%;
+    width: 90%;
     padding: 10px 0 10px 16px;
 }
-.navbar #option ul li:hover {
-    background: red;
+.navbar #option ul a:hover {
+    background: #138808;
  }
 #option a {
-    padding: 8px;
     font-size: 22px;
     background-color: transparent;
     color: white;
     font-weight: 500;
     transition: 0.3s;
     text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 16px;
   }
 #option.active {
     left: -90px;
@@ -135,8 +136,8 @@ hr{
     margin: 11px auto 0;
 }
 .mid-bod img{
-    width: 200px;
-    height: 120px;
+    width: 240px;
+    height: 130px;
     display: block;
     margin: auto;
 }
@@ -148,6 +149,44 @@ hr{
     height: 150px;
     margin: auto;
     border-radius: 5px;
+}
+
+
+.wallet-balance{
+    width: 90%;
+    height: 100px;
+    background: ghostwhite;
+    box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+
+.tab{
+    width: 90%;
+    height: 150px;
+    background: #1F305E;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: white;
+    padding: auto 15px;
+}
+.tab .heading{
+    font-size: 19px;
+    padding-top: 14px;
+    margin: 10px 8px;
+}
+.tab .info{
+    margin: 2px 8px 15px;
+}
+.tab a{
+    text-decoration: none;
+    padding: 8px 10px;
+    color: white;
+    border: 1px solid black;
+    margin: 16px 8px;
+    border-radius: 5px;
+    background: /*1F5E5A*/#138808;
 }
 
 
@@ -175,12 +214,14 @@ hr{
     padding-top: 30px;
 }
 
+/*
 .swiper {
   width: 300px;
   height: 150px;
     border: 2px solid black;
     background: pink;
     }
+*/
   
 @media (min-width: 700px) {
     body{
