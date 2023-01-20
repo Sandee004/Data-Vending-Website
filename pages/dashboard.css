@@ -13,7 +13,7 @@ body{
 .top-section{
     background: #0E3386;
     width: 100%;
-    height: 400px;
+    height: 250px;
 }
 .navbar{
     background: #1F305E; /*#002244;*/
@@ -107,22 +107,34 @@ body{
 }
 .top-section .referral{
     margin: 0 40px 0 0;
+    display: block;
+}
+.top-section .fund{
+    display: block;
+    width: 75px;
+    background: #138808;
+    padding: 9px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 
 .mid-bod{
     height: 500px;
-    background: white;
+    background: ghostwhite;
     width: 90%;
-    margin: -30px auto 15px auto;
+    margin: -40px auto 25px auto;
     border-radius: 6px;
-    border: 1px solid grey;
+    box-shadow: 12px 12px 40px #b4bacb, -12px 30px 40px #eef6ff;
 }
 .mid-bod #introduction{
     color: #0E3386;
-    margin: 12px 15px;
+    margin: 15px 15px;
     font-size: 18px;
     font-weight: 500;
+    padding-top: 15px;
 }
 hr{
     width: 90%;
@@ -132,11 +144,11 @@ hr{
 .mid-bod .package{
     text-align: center;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     margin: 11px auto 0;
 }
 .mid-bod img{
-    width: 240px;
+    width: 280px;
     height: 130px;
     display: block;
     margin: auto;
@@ -160,13 +172,29 @@ hr{
     margin: 20px auto;
     border-radius: 5px;
 }
-
-
+.wallet-balance i{
+    font-size: 40px;
+    margin: 18px 15px 18px 22px ;
+    color: white;
+    background: #0E3386;
+    padding: 12px;
+    border-radius: 3px;
+}
+.wallet-balance p{
+    display: inline-block;
+    font-size: 18px;
+    color: #b4bacb;
+}
+.wallet-balance span{
+    display: block;
+    font-size: 24px;
+    color: black;
+}
 .tab{
     width: 90%;
     height: 150px;
     background: #1F305E;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 5px;
     color: white;
     padding: auto 15px;
@@ -174,17 +202,17 @@ hr{
 .tab .heading{
     font-size: 19px;
     padding-top: 14px;
-    margin: 10px 8px;
+    margin: 10px 15px;
 }
 .tab .info{
-    margin: 2px 8px 15px;
+    margin: 2px 15px 18px;
 }
 .tab a{
     text-decoration: none;
     padding: 8px 10px;
     color: white;
-    border: 1px solid black;
-    margin: 16px 8px;
+    border: 0px solid black;
+    margin: 16px 5px 16px 15px;
     border-radius: 5px;
     background: /*1F5E5A*/#138808;
 }
@@ -211,7 +239,7 @@ hr{
 .box svg{
     display: block;
     margin: 15px auto;
-    padding-top: 30px;
+    padding-top: 36px;
 }
 
 /*
@@ -222,7 +250,26 @@ hr{
     background: pink;
     }
 */
-  
+
+.transactions{
+    width: 90%;
+    height: 200px;
+    color: black;
+    background: ghostwhite;
+    border-radius: 6px;
+    margin: 20px auto;
+    box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
+}
+.transactions h2{
+    color: #1F305E;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 500;
+    margin: 2px auto;
+}
+.transactions p{
+    margin: 15px 13px;
+}
 @media (min-width: 700px) {
     body{
         display: none;

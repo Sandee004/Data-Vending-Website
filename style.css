@@ -11,7 +11,7 @@ a{
     margin: 0;
 }
 .first-bod{
-    background: #0000CD;
+    background: /*0000CD*/#0E3386;
     height: 100vh;
     color: white;
 }
@@ -126,13 +126,13 @@ a{
     color: white;
 }
  .playstore{
-    width: 240px;
-    height: 140px;
+    width: 280px;
+    height: 130px;
     margin: auto 20px;
 }
 #services h1{
     text-align: center;
-    color: #0000CD;
+    color: /*0000CD*/#0E3386;
     margin: 25px auto 15px auto;
 }
 #services .box{
@@ -175,7 +175,7 @@ box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
     font-size: 18px;
 }
 #more-info a button{
-    background: #0000CD;
+    background: #0E3386;
     width: 80%;
     font-size: 18px;
     color: white;
@@ -194,7 +194,7 @@ box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
     margin: 15px auto 20px auto;
 }
 #why-us h2{
-    color: #0000CD;
+    color: #0E3386;
     margin-left: 24px;
 }
 #why-us p{
@@ -203,7 +203,7 @@ box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
 }
 #why-us ul{
     line-height: 32px;
-    color: #0000CD;
+    color: #0E3386;
     font-weight: 550;
 }
     
@@ -215,7 +215,7 @@ box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
 }
 #sell-point h2{
     margin: 25px 24px 10px 24px;
-    color: #0000CD;
+    color: #0E3386;
 }
 #sell-point p{
     margin: auto 24px 30px 24px;
