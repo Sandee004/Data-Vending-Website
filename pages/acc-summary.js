@@ -1,22 +1,16 @@
-//For the navbar
-const toggle = document.getElementById('toggle')
-const options = document.getElementById('option')
+const imgDiv= document.getElementById('imageGrp');
+const img= document.getElementById('profile_pic');
+const file= document.getElementById('file');
+const uploadBtn= document.getElementById('uploadBtn');
 
-document.body.onscroll = function(e) {
-    if (e.target.id !== 'options' && e.target.id !== 'toggle') {
-        toggle.classList.remove('active')
-        options.classList.remove('active')
+file.addEventListener("change", function(){
+    const choosedFile = this.files[0]
+
+    if (choosedFile) {
+        const reader = new FileReader()
+        reader.addEventListener("load", function() {
+          img.setAttribute("src", reader.result);D
+      });
+    reader.readAsDataURL(choosedFile)
     }
-}
-
-document.body.onclick = function(e) {
-    if (e.target.id !== 'options' && e.target.id !== 'toggle') {
-        toggle.classList.remove('active')
-        options.classList.remove('active')
-    }
-}
-
-toggle.addEventListener('click', function() {
-    toggle.classList.toggle('active')
-    options.classList.toggle('active')
 })

@@ -117,7 +117,8 @@ submit.addEventListener("click", function(ev) {
 
         localStorage.setItem("user-name", username.value)
         localStorage.setItem("user-pass", password.value)
-        
+        localStorage.setItem("user-mail", email.value)
+        localStorage.setItem("user-no", tel.value)
     }
 })
 
