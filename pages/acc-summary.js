@@ -14,3 +14,13 @@ file.addEventListener("change", function(){
     reader.readAsDataURL(choosedFile)
     }
 })
+
+const fullname= document.getElementById('name');
+const username= document.getElementById('username');
+const email= document.getElementById('email');
+const number= document.getElementById('phone');
+
+fullname.innerHTML= localStorage.getItem("fullname")
+username.innerHTML= localStorage.getItem("user-name")
+email.innerHTML= localStorage.getItem("user-mail")
+number.innerHTML= localStorage.getItem("user-no")

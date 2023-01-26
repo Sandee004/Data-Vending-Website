@@ -20,7 +20,7 @@ html{
 }
 .navbar a{
     float: left;
-    margin-right: 85px;
+    
 }
 .navbar a i{
     font-size: 32px;
@@ -28,10 +28,9 @@ html{
     margin: auto 10px;
     text-decoration: none;
 }
-.navbar a i:focus
 .navbar h2{
-    margin: auto 10px;
-    padding: 0 20px;
+    position: relative;
+    text-align: center;
 }
 
 
@@ -60,13 +59,19 @@ html{
     color: white;
     border-radius: 4px;
     padding: 8px 10px;
-    margin: -30px 26px auto auto;
+    margin: -30px 5% auto auto;
 }
 table{
-    border: 2px solid black;
-    width: 90%;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
 }
 table td{
-    border: 2px solid blue;
+    border-bottom: .5px solid grey;
     border-spacing: 15px;
+    padding-top: 25px;
+}
+table .head{
+    font-weight: 600;
+    
 }

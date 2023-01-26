@@ -115,6 +115,7 @@ submit.addEventListener("click", function(ev) {
        window.open("dashboard.html", "_self")
 
 
+        localStorage.setItem("fullname", fullname.value)
         localStorage.setItem("user-name", username.value)
         localStorage.setItem("user-pass", password.value)
         localStorage.setItem("user-mail", email.value)
