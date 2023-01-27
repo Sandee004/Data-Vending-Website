@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+    font-family: "DM Sans", Sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+}
+
+
+.navbar{
+    background: #1F305E; /*#002244;*/
+    color: white;
+    width: 100%;
+    position: fixed;
+    padding: 12px;
+    top: 0;
+    margin-bottom: 20px;
+}
+.navbar a{
+    float: left;
+    color: white;
+    margin: auto 10px;
+    text-decoration: none;
+}
+.navbar a i{
+    font-size: 32px;
+}
+.navbar h2{
+    text-align: center;
+}
+ .account {
+     padding-top: 70px;
+ }
+.account, .account1{
+     margin: 15px 15px;
+    border-bottom: 2px solid black;
+}

@@ -20,13 +20,12 @@ html{
 }
 .navbar a{
     float: left;
-    
+    margin: auto 10px;
+    text-decoration: none;
+    color: white;
 }
 .navbar a i{
     font-size: 32px;
-    color: white;
-    margin: auto 10px;
-    text-decoration: none;
 }
 .navbar h2{
     position: relative;
