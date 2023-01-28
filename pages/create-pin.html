@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thechosendata</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/6bd9574680.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="create-pin.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="dashboard.html">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+        <h2>Account Summary</h2>
+    </div>
+    <p class="info">Your pin would be used to validate and carry out any transactions. Ensure you don't forget it.</p>
+
+    <div class="input-wrap">
+        <input id="pin1" class="pin" type="number" onkeyup="movetoNext(this, 'pin2')" required>
+
+        <input id="pin2" class="pin" type="number" onkeyup="movetoNext(this, 'pin3')" required>
+
+        <input id="pin3" class="pin" type="number" onkeyup="movetoNext(this, 'pin4')" required>
+
+        <input id="pin4" class="pin" type="number" required>
+    </div>
+
+    <a href="page6(homepage).html" class="skip">Skip for now?</a>
+
+    <a id="submit" href="page6(homepage).html">
+        <button id="btn" onclick="confirm">Continue</button>
+    </a>
+    </div>
+
+    <script>
+        var pin1 = document.getElementById("pin1");
+        var pin2 = document.getElementById("pin2");
+        var pin3 = document.getElementById("pin3");
+        var pin4 = document.getElementById("pin4");
+        const btn = document.getElementById("btn");
+        var a = document.getElementById("submit");
+
+        a.originalLink = a.href
+
+        pin1.maxLength = "1"
+        pin2.maxLength = "1"
+        pin3.maxLength = "1"
+        pin4.maxLength = "1"
+
+
+        function movetoNext(current, nextFieldID) {
+            if (current.value.length >= current.maxLength) {
+                document.getElementById(nextFieldID).focus();
+            }
+        }
+
+        btn.addEventListener("click", function () {
+            if (pin4.value.length < 1) {
+                alert("Pin should be 4 digits!!!")
+                a.href = 'javascript:void(0)';
+            }
+            else {
+                a.href = a.originalLink;
+            }
+        })
+    </script>
+</body>
