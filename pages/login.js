@@ -25,7 +25,7 @@ login.addEventListener("click", function(ev) {
     
     if (User.value == nameInStorage && Password.value == passInStorage){
     ev.preventDefault()
-    window.open("homepage.html", "_self");
+    window.open("dashboard.html", "_self");
     }
         
     if (User.value !== nameInStorage && User.value.length > 0 || Password.value !== passInStorage && Password.value.length > 0){
