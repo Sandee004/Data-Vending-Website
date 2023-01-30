@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
     <title>Thechosendata</title>
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
         </a>
         <h2>Account Summary</h2>
     </div>
-    <p class="info">Your pin would be used to validate and carry out any transactions. Ensure you don't forget it.</p>
+    <p class="info">Your pin would be used to validate and carry out any transactions.</p>
 
     <div class="input-wrap">
         <input id="pin1" class="pin" name="pincode" type="password" inputmode="numeric" maxlength="1"
@@ -38,36 +38,10 @@
         <input id="pin4" class="pin" name="pincode" type="password" inputmode="numeric" maxlength="1" required>
     </div>
 
-    <a id="submit" href="">
-        <button id="btn" onclick="confirm">Continue</button>
+    <a id="submit" href="dashboard.html">
+        <button id="btn" onclick="confirm">Save</button>
     </a>
 
 
-    <script>
-        var pin1 = document.getElementById("pin1");
-        var pin2 = document.getElementById("pin2");
-        var pin3 = document.getElementById("pin3");
-        var pin4 = document.getElementById("pin4");
-        const btn = document.getElementById("btn");
-        var a = document.getElementById("submit");
-
-        a.originalLink = a.href
-
-        function movetoNext(current, nextFieldID) {
-            if (current.value.length >= current.maxLength) {
-                document.getElementById(nextFieldID).focus();
-            }
-        }
-
-        btn.addEventListener("click", function (ev) {
-            if (pin1.value.length == 1 && pin2.value.length == 1 && pin3.value.length == 1 && pin4.value.length == 1) {
-                
-                alert(pin1.value + pin2.value + pin3.value + pin4.value)
-                //a.href = a.originalLink;
-            }
-            else {
-                ev.preventDefault()
-            }
-        })
-    </script>
-</body>
+    <script src="create-pin.js"></script>
+        </body>
