@@ -26,21 +26,22 @@
     <p class="info">Your pin would be used to validate and carry out any transactions. Ensure you don't forget it.</p>
 
     <div class="input-wrap">
-        <input id="pin1" class="pin" type="number" onkeyup="movetoNext(this, 'pin2')" required>
+        <input id="pin1" class="pin" name="pincode" type="password" inputmode="numeric" maxlength="1"
+            onkeyup="movetoNext(this, 'pin2')" required>
 
-        <input id="pin2" class="pin" type="number" onkeyup="movetoNext(this, 'pin3')" required>
+        <input id="pin2" class="pin" name="pincode" type="password" inputmode="numeric" maxlength="1"
+            onkeyup="movetoNext(this, 'pin3')" required>
 
-        <input id="pin3" class="pin" type="number" onkeyup="movetoNext(this, 'pin4')" required>
+        <input id="pin3" class="pin" name="pincode" type="password" inputmode="numeric" maxlength="1"
+            onkeyup="movetoNext(this, 'pin4')" required>
 
-        <input id="pin4" class="pin" type="number" required>
+        <input id="pin4" class="pin" name="pincode" type="password" inputmode="numeric" maxlength="1" required>
     </div>
 
-    <a href="page6(homepage).html" class="skip">Skip for now?</a>
-
-    <a id="submit" href="page6(homepage).html">
+    <a id="submit" href="">
         <button id="btn" onclick="confirm">Continue</button>
     </a>
-    </div>
+
 
     <script>
         var pin1 = document.getElementById("pin1");
@@ -52,25 +53,20 @@
 
         a.originalLink = a.href
 
-        pin1.maxLength = "1"
-        pin2.maxLength = "1"
-        pin3.maxLength = "1"
-        pin4.maxLength = "1"
-
-
         function movetoNext(current, nextFieldID) {
             if (current.value.length >= current.maxLength) {
                 document.getElementById(nextFieldID).focus();
             }
         }
 
-        btn.addEventListener("click", function () {
-            if (pin4.value.length < 1) {
-                alert("Pin should be 4 digits!!!")
-                a.href = 'javascript:void(0)';
+        btn.addEventListener("click", function (ev) {
+            if (pin1.value.length == 1 && pin2.value.length == 1 && pin3.value.length == 1 && pin4.value.length == 1) {
+                
+                alert(pin1.value + pin2.value + pin3.value + pin4.value)
+                //a.href = a.originalLink;
             }
             else {
-                a.href = a.originalLink;
+                ev.preventDefault()
             }
         })
     </script>

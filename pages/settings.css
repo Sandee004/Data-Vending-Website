@@ -35,8 +35,12 @@ html{
 .create-pin{
     padding: 70px 0 20px;
     border-bottom: 1px solid black;
+    color: black;
+    text-decoration: none;
 }
 .change-password{
     border-bottom: 1px solid black;
     padding: 20px 0;
+    color: black;
+    text-decoration: none;
 }
