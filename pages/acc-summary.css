@@ -72,5 +72,11 @@ table td{
 }
 table .head{
     font-weight: 600;
-    
+}
+
+
+@media (min-width: 700px) {
+    body{
+        display: none;
+    }
 }

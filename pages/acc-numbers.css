@@ -37,3 +37,10 @@ html{
      margin: 15px 15px;
     border-bottom: 2px solid black;
 }
+
+
+@media (min-width: 700px) {
+    body{
+        display: none;
+    }
+}

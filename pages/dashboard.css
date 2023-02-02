@@ -269,6 +269,5 @@ hr{
 @media (min-width: 700px) {
     body{
         display: none;
-        background: pink;
     }
 }

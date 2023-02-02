@@ -78,3 +78,10 @@ html{
 #submit button:hover{
     transform: scale(1.2);
 }
+
+
+@media (min-width: 700px) {
+    body{
+        display: none;
+    }
+}
