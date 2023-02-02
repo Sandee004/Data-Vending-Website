@@ -118,6 +118,9 @@ a{
     font-weight: 500;
     width: 90px;
 }
+.first-bod a button:hover{
+    transform: scale(1.1)
+}
 .first-bod .reg{
     margin: auto 5px auto 24px;
 }

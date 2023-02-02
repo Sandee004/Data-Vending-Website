@@ -1,5 +1,5 @@
 body{
-    background: #0000CD;
+    background: #0E3386;
     color: black;
     font-family: "DM Sans", sans serif;
 }
@@ -37,7 +37,7 @@ body{
 #main input:focus{
     border: none;
     outline-width: 1px;
-    outline-color: blue;
+    outline-color: #1F305E;
 }
 #main form .forgot-password{
     display: block;
