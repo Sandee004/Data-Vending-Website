@@ -207,8 +207,11 @@ hr{
     background: /*1F5E5A*/#138808;
 }
 .tab .join-us{
-    display: inline-block;
-    margin: 16px 0;
+    display: inline;
+    margin: 16px -5px;
+}
+#support{
+    height: 175px;
 }
 
 .groups{
