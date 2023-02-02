@@ -1,13 +1,14 @@
-let old_password = document.getElementById('old-password');
-let old_password_error = document.getElementById('old-password-error');
+var old_password = document.getElementById('old-password');
+var old_password_error = document.getElementById('old-password-error');
 
-let new_password = document.getElementById('new-password');
-let new_password_error = document.getElementById('new-password-error');
+var new_password = document.getElementById('new-password');
+var new_password_error = document.getElementById('new-password-error');
 
-let save = document.getElementById('save');
-let old_pass = localStorage.getItem('user-pass');
+var done = document.getElementById('done');
+var save = document.getElementById('save');
+var old_pass = localStorage.getItem('user-pass');
 
-a.originalLiml = a.href
+done.originalLink = done.href
 save.addEventListener("click", function(ev) {
     //if (old_password !== old_pass){
     if (old_password.value !== old_pass) {
@@ -32,10 +33,11 @@ save.addEventListener("click", function(ev) {
     alert("Useless line of code")
    }
     if (old_password == old_pass && new_password.value.length >= 8) {
-       // ev.preventDefault()
-        window.open("dashboard.html", "_self")
+        //ev.preventDefault()
+        //window.open("dashboard.html", "_self")
 
         localStorage.setItem("user-pass", new_password.value)
+        done.href= done.originalLink
     }
 })
     
