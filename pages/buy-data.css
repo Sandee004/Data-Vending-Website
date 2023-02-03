@@ -96,3 +96,33 @@ body{
 .navbar h2{
     text-align: center;
 }
+
+/*.groups{
+    width: 90%;
+    margin: 12px 15px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}*/
+.header{
+    padding-top: 70px;
+    color: #0E3386;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 
+}
+.groups{
+    background: ghostwhite;
+    width: 90%;
+    height: 500px;
+    border-radius: 5px;
+    margin: 15px auto;
+    box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
+}
+
+
+.box svg{
+    display: block;
+    margin: 15px auto;
+    padding-top: 36px;
+}
