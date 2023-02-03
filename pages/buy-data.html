@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>Thechosendata</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/6bd9574680.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="buy-data.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div id="toggle"></div>
+        <div id="option">
+            <ul>
+                <a>Dashboard</a>
+                <a>Buy Bulk Data</a>
+                <a>Buy Data</a>
+                <a>Buy Airtime</a>
+                <a>Utilities Payment</a>
+                <a href="acc-numbers.html">Fund Wallet</a>
+                <a href="acc-summary.html">Account</a>
+                <a href="settings.html">Settings</a>
+                <a href="login.html">Logout</a>
+            </ul>
+        </div>
+        <h2>Welcome</h2>
+    </div>
+    <script>
+        const toggle = document.getElementById('toggle')
+        const options = document.getElementById('option')
+
+        document.body.onscroll = function (e) {
+            if (e.target.id !== 'options' && e.target.id !== 'toggle') {
+                toggle.classList.remove('active')
+                options.classList.remove('active')
+            }
+        }
+
+        document.body.onclick = function (e) {
+            if (e.target.id !== 'options' && e.target.id !== 'toggle') {
+                toggle.classList.remove('active')
+                options.classList.remove('active')
+            }
+        }
+
+        toggle.addEventListener('click', function () {
+            toggle.classList.toggle('active')
+            options.classList.toggle('active')
+        })
+    </script>
+</body>
