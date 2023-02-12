@@ -13,7 +13,6 @@ body{
 .top-section{
     background: #0E3386;
     width: 100%;
-    height: 250px;
 }
 .navbar{
     background: #1F305E; /*#002244;*/
@@ -97,32 +96,57 @@ body{
     text-align: center;
 }
 
-/*.groups{
-    width: 90%;
-    margin: 12px 15px;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    text-align: center;
-}*/
+
 .header{
     padding-top: 70px;
     color: #0E3386;
     text-align: center;
-    font-size: 22px;
-    font-weight: 
+    font-size: 25px;
+    font-weight: medium;
 }
-.groups{
+.main{
     background: ghostwhite;
     width: 90%;
-    height: 500px;
+    height: 1200px;
     border-radius: 5px;
-    margin: 15px auto;
+    margin: 10px auto;
     box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
+}
+.main section {
+    margin: 0 10px;
+}
+.db-codes{
+    text-align: center;
+    margin-bottom: 0; 
+    padding: 20px;
+    font-size: 18px;
+}
+.main section p{
+    margin: 2px;
+    padding: 10px 15px;
 }
 
 
-.box svg{
+.first-option label{
     display: block;
-    margin: 15px auto;
-    padding-top: 36px;
+    margin: 20px 15px 6px;
+    font-weight: 600;
+}
+.first-option select, .first-option input{
+    width: 90%;
+    margin: 0px 15px 8px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.first-option select:focus, input:focus{
+    outline-color: #1F305E;
+    outline-width: 1px;
+    border: none;
+}
+#MTN-CG1-option, #MTN-CG2-options, #MTN-SME-options, #GLO-options, #9MOBILE-options, #AIRTEL-options{
+    background: purple;
+}
+.first-option input{
+    width: 250px;
 }
