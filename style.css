@@ -47,7 +47,7 @@ a{
 #toggle::before {
     content: "";
     position: absolute;
-    width: 6vw;
+    width: 25px;
     height: 3px;
     background: black;
     transform: translateY(-5px);
@@ -56,7 +56,7 @@ a{
 #toggle::after {
     content: "";
     position: absolute;
-    width: 6vw;
+    width: 25px;
     height: 3px;
     background: black;
     transform: translateY(5px);
@@ -116,7 +116,7 @@ a{
     font-size: 16px;
     color: #138808;
     font-weight: 500;
-    margin-right: 18px;
+    margin-right: 24px;
     width: 90px;
 }
 .first-bod a button:hover{
@@ -132,7 +132,7 @@ a{
  .playstore{
     width: 290px;
     height: 120px;
-    margin: auto 20px;
+    display: block;
 }
 #services h1{
     text-align: center;
@@ -224,4 +224,10 @@ box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
 #sell-point p{
     margin: auto 24px 30px 24px;
     line-height: 32px;
+}
+
+@media (min-width: 700px) {
+    body{
+        display: none;
+    }
 }

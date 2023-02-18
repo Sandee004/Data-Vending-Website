@@ -36,7 +36,7 @@ body{
 #toggle::before {
     content: "";
     position: absolute;
-    width: 6vw;
+    width: 25px;
     height: 3px;
     background: white;
     transform: translateY(-5px);
@@ -45,7 +45,7 @@ body{
 #toggle::after {
     content: "";
     position: absolute;
-    width: 6vw;
+    width: 25px;
     height: 3px;
     background: white;
     transform: translateY(5px);
@@ -107,7 +107,7 @@ body{
 .main{
     background: ghostwhite;
     width: 90%;
-    height: 1200px;
+    height: 1300px;
     border-radius: 5px;
     margin: 10px auto;
     box-shadow: 12px 12px 40px #b4bacb, -12px -12px 40px #eef6ff;
@@ -127,12 +127,16 @@ body{
 }
 
 
-.first-option label{
+
+.first-option label, .plan-selection label{
     display: block;
     margin: 20px 15px 6px;
     font-weight: 600;
 }
-.first-option select, .first-option input{
+/*#first-option{
+    display: none;
+}*/
+.first-option select, .first-option input, .plan-selection select{
     width: 90%;
     margin: 0px 15px 8px;
     padding: 10px 20px;
@@ -144,9 +148,28 @@ body{
     outline-width: 1px;
     border: none;
 }
-#MTN-CG1-option, #MTN-CG2-options, #MTN-SME-options, #GLO-options, #9MOBILE-options, #AIRTEL-options{
-    background: purple;
+.plan-selection{
+    display: none;
 }
 .first-option input{
-    width: 250px;
+    width: 80%;
+}
+
+#submit {
+  text-align: center;
+  text-decoration: none;
+}
+#btn{
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background: #138808;
+  display: block;
+  margin: 20px 0 40px 72%;
+  border: none;
+}
+#submit button:hover{
+    transform: scale(1.2);
 }
