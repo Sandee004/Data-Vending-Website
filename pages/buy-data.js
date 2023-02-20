@@ -31,17 +31,15 @@ var airtelDiv = document.getElementById('airtelDiv');
 
 var mtnCG1 = document.getElementById('cg1Div');
 var CG1options = document.getElementById('CG1options');
-var CG2options = document.getElementById('CG2options');
-var SMEoptions = document.getElementById('SMEoptions');
 var mtnCG2 = document.getElementById('cg2Div');
 var mtnSME = document.getElementById('smeDiv');
 
 
 
-network.addEventListener("input", function () {
+network.addEventListener("input", function() {
     var select = document.getElementById('network');
     var text = select.options[select.selectedIndex].text;
-    if (text == "MTN"){
+    if (text == "MTN") {
         dataType.removeAttribute("disabled")
         gloDiv.style.display = "none"
         etisalatDiv.style.display = "none"
@@ -75,13 +73,11 @@ dataType.addEventListener("input", function() {
         CG1options.removeAttribute("disabled")
         mtnCG2.style.display = "none"
         mtnSME.style.display = "none"
-        //alert("CG1 works")
     }
     if (text2 == "CG2") {
         mtnCG1.style.display = "none"
         mtnCG2.style.display = "block"
         mtnSME.style.display = "none"
-        //alert("CG2 works")
     }
     if (text2 == "SME") {
         mtnCG1.style.display = "none"
