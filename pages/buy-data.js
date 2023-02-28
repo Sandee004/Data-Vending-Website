@@ -91,26 +91,30 @@ var main = document.getElementById('main');
 var overlay = document.getElementById('overlay');
 var confirm = document.getElementById('confirm');
 
-overlay.addEventListener("onscroll", function(e) {
+/*overlay.addEventListener("scroll", function(e) {
     //alert("hchh")
     if (e.target.id !== 'auth' && e.target.id !== 'confirm') {
         auth.style.opacity = "0"
         auth.style.pointerEvents = "none"
         overlay.style.opacity = "0"
     }
-})
+})*/
 
-overlay.addEventListener("onclick", function(e) {
-    //alert("hghghh")
-    if (e.target.id !== 'auth' && e.target.id !== 'confirm') {
+overlay.addEventListener("click", function(e) {
+
+    alert("hghghh")
+   /* if (e.target.id !== 'auth' && e.target.id !== 'confirm') {
         auth.style.opacity = "0"
         auth.style.pointerEvents = "none"
         overlay.style.opacity = "0"
-    }
+    }*/
 })
 
 
 btn.addEventListener("click",function() {
     overlay.style.opacity= "1"
+    overlay.pointerEvents= "auto"
 })
-
+confirm.addEventListener("click", function() {
+    overlay.style.opacity="0"
+})

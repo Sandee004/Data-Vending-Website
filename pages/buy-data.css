@@ -201,7 +201,6 @@ body{
     color: black;
     height: 150px;
     text-align: center;
-    pointer-events: none;
     animation-name: zoom;
     animation-duration: 2s;
 }
