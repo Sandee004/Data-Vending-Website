@@ -85,11 +85,32 @@ dataType.addEventListener("input", function() {
     }
 })
 
-var btn= document.getElementById('btn');
-var auth= document.getElementById('auth');
-var main= document.getElementById('main');
-btn.addEventListener("click", function() {
-    auth.style.display = "block"
+var btn = document.getElementById('btn');
+var auth = document.getElementById('auth');
+var main = document.getElementById('main');
+var overlay = document.getElementById('overlay');
+var confirm = document.getElementById('confirm');
 
-    main.blur();
+overlay.addEventListener("onscroll", function(e) {
+    //alert("hchh")
+    if (e.target.id !== 'auth' && e.target.id !== 'confirm') {
+        auth.style.opacity = "0"
+        auth.style.pointerEvents = "none"
+        overlay.style.opacity = "0"
+    }
 })
+
+overlay.addEventListener("onclick", function(e) {
+    //alert("hghghh")
+    if (e.target.id !== 'auth' && e.target.id !== 'confirm') {
+        auth.style.opacity = "0"
+        auth.style.pointerEvents = "none"
+        overlay.style.opacity = "0"
+    }
+})
+
+
+btn.addEventListener("click",function() {
+    overlay.style.opacity= "1"
+})
+
