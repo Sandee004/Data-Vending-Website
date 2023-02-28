@@ -35,7 +35,7 @@
         <h2>Welcome</h2>
     </div>
     <p class="header">Buy Data</p>
-    <div class="main">
+    <div class="main" id="main">
         <p class="db-codes">Codes for data balance</p>
         <section>
             <p style="background-color: rgb(255,255,0,0.5);">MTN [SME] *461*4#</p>
@@ -158,11 +158,13 @@
             <input disabled>
         </div>
         </form>
-        <button id="btn">Save</button>
+        <button id="btn">Buy Now</button>
     </div>
 
-    <div class="transaction-auth">
-        pin
+    <div id="auth" class="transaction-auth">
+        <p>Input pin</p>
+        <input id="pin-auth" name="pincode" type="password" inputmode="numeric" maxlength="4">
+        <button>Ok</button>
     </div>
     <script src="buy-data.js"></script>
 </body>

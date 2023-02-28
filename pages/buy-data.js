@@ -21,7 +21,6 @@ toggle.addEventListener('click', function() {
 })
 
 
-var btn = document.getElementById('btn');
 var select1 = document.getElementById("select1")
 var network = document.getElementById('network');
 var dataType = document.getElementById('dataType');
@@ -84,4 +83,13 @@ dataType.addEventListener("input", function() {
         mtnCG2.style.display = "none"
         mtnSME.style.display = "block"
     }
+})
+
+var btn= document.getElementById('btn');
+var auth= document.getElementById('auth');
+var main= document.getElementById('main');
+btn.addEventListener("click", function() {
+    auth.style.display = "block"
+
+    main.blur();
 })
