@@ -91,30 +91,22 @@ var main = document.getElementById('main');
 var overlay = document.getElementById('overlay');
 var confirm = document.getElementById('confirm');
 
-/*overlay.addEventListener("scroll", function(e) {
-    //alert("hchh")
-    if (e.target.id !== 'auth' && e.target.id !== 'confirm') {
-        auth.style.opacity = "0"
-        auth.style.pointerEvents = "none"
-        overlay.style.opacity = "0"
-    }
-})*/
 
-overlay.addEventListener("click", function(e) {
-
+/*overlay.addEventListener("click", function() {
     alert("hghghh")
-   /* if (e.target.id !== 'auth' && e.target.id !== 'confirm') {
-        auth.style.opacity = "0"
-        auth.style.pointerEvents = "none"
-        overlay.style.opacity = "0"
-    }*/
-})
+    
+},{capture:true})*/
 
-
-btn.addEventListener("click",function() {
+btn.addEventListener("click", function() {
     overlay.style.opacity= "1"
-    overlay.pointerEvents= "auto"
+    overlay.style.pointerEvents= "auto"
+    auth.style.pointerEvents= "auto"
 })
-confirm.addEventListener("click", function() {
+
+confirm.addEventListener("click", function(){
+    //e.stopPropagation
     overlay.style.opacity="0"
+    auth.style.pointerEvents= "none"
+    overlay.style.pointerEvents= "none"
 })
+    
