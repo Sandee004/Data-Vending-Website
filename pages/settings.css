@@ -19,17 +19,17 @@ html{
     margin-bottom: 20px;
 }
 .navbar a{
-    float: left;
-    margin: auto 10px;
+    position: relative;
     text-decoration: none;
     color: white;
 }
 .navbar a i{
     font-size: 32px;
+    position: absolute;
 }
 .navbar h2{
-    position: relative;
     text-align: center;
+    position: relative;
 }
 
 .link{
@@ -38,10 +38,17 @@ html{
     color: black;
 }
 .create-pin{
-    padding: 70px 0 20px;
+    padding: 20px 0 20px;
+    margin-top: 50px;
     border-bottom: 1px solid black;
 }
 .change-password{
     border-bottom: 1px solid black;
     padding: 20px 0;
+}
+
+@media (min-width: 700px) {
+    body{
+        display: none;
+    }
 }

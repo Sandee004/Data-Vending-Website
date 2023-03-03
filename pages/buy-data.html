@@ -70,87 +70,90 @@
             <div class="first-option" id="cg1Div">
                 <label>Plan</label>
                 <select id="CG1options" disabled>
-                    <option>CG1 MTN</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
+                    <option>----</option>
+                    <option>CG1</option>
+                    <option>CG1</option>
+                    <option>CG1</option>
+                    <option>CG1</option>
+                    <option>CG1</option>
+                    <option>CG1</option>
+                    <option>CG1</option>
                 </select>
             </div>
 
             <div class="plan-selection" id="cg2Div">
                 <label>Plan</label>
                 <select id="CG2options">
-                    <option>CG2 MTN</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
+                    <option>----</option>
+                    <option>CG2</option>
+                    <option>CG2</option>
+                    <option>CG2</option>
+                    <option>CG2</option>
+                    <option>CG2</option>
+                    <option>CG2</option>
+                    <option>CG2</option>
                 </select>
             </div>
 
             <div class="plan-selection" id="smeDiv">
                 <label>Plan</label>
                 <select id="SMEoptions">
-                    <option>SME MTN</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
+                    <option>----</option>
+                    <option>SME</option>
+                    <option>SME</option>
+                    <option>SME</option>
+                    <option>SME</option>
+                    <option>SME</option>
+                    <option>SME</option>
+                    <option>SME</option>
                 </select>
             </div>
 
             <div class="plan-selection" id="gloDiv">
                 <label>Plan</label>
                 <select id="gloPlans">
+                    <option>----</option>
                     <option>GLO</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
+                    <option>GLO</option>
+                    <option>GLO</option>
+                    <option>GLO</option>
+                    <option>GLO</option>
+                    <option>GLO</option>
+                    <option>GLO</option>
                 </select>
             </div>
 
             <div class="plan-selection" id="etisalatDiv">
                 <label>Plan</label>
                 <select id="etisalatPlans">
-                    <option>ETISALAT</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
+                    <option>----</option>
+                    <option>9MOBILE</option>
+                    <option>9MOBILE</option>
+                    <option>9MOBILE</option>
+                    <option>9MOBILE</option>
+                    <option>9MOBILE</option>
+                    <option>9MOBILE</option>
+                    <option>9MOBILE</option>
                 </select>
             </div>
 
             <div class="plan-selection" id="airtelDiv">
                 <label>Plan</label>
                 <select id="airtelPlans">
+                    <option>----</option>
                     <option>AIRTEL</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
-                    <option>One</option>
+                    <option>AIRTEL</option>
+                    <option>AIRTEL</option>
+                    <option>AIRTEL</option>
+                    <option>AIRTEL</option>
+                    <option>AIRTEL</option>
+                    <option>AIRTEL</option>
                 </select>
             </div>
 
             <div class="first-option">
                 <label>Mobile Number</label>
-                <input inputmode="numeric" maxlength="11">
+                <input id="number" inputmode="numeric" maxlength="11">
             </div>
 
             <div class="first-option">
@@ -163,8 +166,10 @@
 
     <div class="overlay" id="overlay">
         <div id="auth" class="transaction-auth">
-            <p>Input pin</p>
+            <i class="fa-regular fa-circle-check" id="check"></i>
+            <p id="paragraph">Input pin</p>
             <input id="pin-auth" name="pincode" type="password" inputmode="numeric" maxlength="4">
+            <button id="cancel">Cancel</button>
             <button id="confirm">Ok</button>
         </div>
     </div>

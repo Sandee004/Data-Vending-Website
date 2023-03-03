@@ -15,8 +15,8 @@ function movetoNext(current, nextFieldID) {
 
 btn.addEventListener("click", function(ev) {
     if (pin1.value.length == 1 && pin2.value.length == 1 && pin3.value.length == 1 && pin4.value.length == 1) {
-        let general_pin = pin1.value + pin2.value + pin3.value + pin4.value
-        localStorage.setItem("general_pin", general_pin.value)
+        let generalPin = pin1.value + pin2.value + pin3.value + pin4.value
+        localStorage.setItem("general_pin", generalPin)
         a.href = a.originalLink;
     }
     else {

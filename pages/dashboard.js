@@ -1,5 +1,5 @@
 //To get a value from local storage 
-const introduction= document.getElementById('introduction');
+let introduction= document.getElementById('introduction');
 let username= localStorage.getItem("user-name")
 introduction.innerHTML="Good day, "+ username
 
