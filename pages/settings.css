@@ -1,13 +1,15 @@
 html{
     scroll-behavior: smooth;
     font-family: "DM Sans", Sans-serif;
-    /*max-width: 100%;
-    overflow-x: hidden;*/
+    overflow-x: wrap;
 }
 *{
     margin: 0;
-}
 
+}
+body{
+    width: 100vw;
+}
 
 .navbar{
     background: #1F305E; /*#002244;*/
@@ -31,7 +33,7 @@ html{
 }
 .navbar h2{
     text-align: center;
-    margin: auto;
+    margin: auto 41vw auto 0;
 }
 
 .link{

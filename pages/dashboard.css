@@ -10,6 +10,10 @@ body{
     max-width: 100%;
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .top-section{
     background: #0E3386;
     width: 100%;
@@ -86,7 +90,6 @@ body{
     color: white;
     font-weight: 500;
     transition: 0.3s;
-    text-decoration: none;
     display: block;
     padding: 10px 0 10px 16px;
   }
@@ -107,10 +110,10 @@ body{
 .top-section .referral{
     margin: 0 40px 0 0;
     display: block;
+    color: white;
 }
 .top-section .fund{
    display: inline-block;
-    
     background: #138808;
     padding: 9px 10px;
     border-radius: 5px;
@@ -198,7 +201,6 @@ hr{
     margin: 2px 15px 18px;
 }
 .tab a{
-    text-decoration: none;
     padding: 8px 9px;
     color: white;
     border: 0px solid black;
@@ -223,7 +225,6 @@ hr{
 }
 .box{
     background: ghostwhite;
-    text-decoration: none;
     width: 140px;
     height: 150px;
     border-radius: 5px;
