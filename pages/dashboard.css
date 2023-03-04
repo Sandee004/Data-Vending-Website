@@ -223,6 +223,7 @@ hr{
 }
 .box{
     background: ghostwhite;
+    text-decoration: none;
     width: 140px;
     height: 150px;
     border-radius: 5px;
