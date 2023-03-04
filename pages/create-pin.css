@@ -17,18 +17,21 @@ html{
     padding: 12px;
     top: 0;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .navbar a{
     text-decoration: none;
-    position: absolute;
     color: white;
+    margin: auto 0px auto 20px;
 }
 .navbar a i{
     font-size: 32px;
 }
 .navbar h2{
     text-align: center;
-    position: relative;
+    margin-right: 32%;
 }
 
 
