@@ -1,42 +1,34 @@
 html{
     scroll-behavior: smooth;
     font-family: "DM Sans", Sans-serif;
-    max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: wrap;
+}
+*{
+    margin: 0;
 }
 body{
     background: whitesmoke;
-    margin: 0;
-    max-width: 100%;
-    overflow-x: hidden;
+    width: 100vw;
 }
 a{
     text-decoration: none;
     color: black;
 }
-.top-section{
-    background: #0E3386;
-    width: 100%;
-    height: 250px;
-}
 .navbar{
     background: #1F305E; /*#002244;*/
     color: white;
-    width: 100%;
-    top: 00px;
+    width: 100vw;
     position: fixed;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #toggle {
-    position: fixed;
-    top: 20px;
-    left: 25px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
     background: transparent;
     width: 10px;
     height: 12px;
+margin-right: auto;
 }
 #toggle::before {
     content: "";
@@ -98,10 +90,14 @@ a{
   }
 .navbar h2{
     text-align: center;
+    margin-right: auto;
 }
 .top-section{
-    padding: 120px 0px 70px 15px;
+    padding: 20px 0px 70px 15px;
     color: white;
+    background: #0E3386;
+    width: 100%;
+    height: 250px;
 }
 .top-section .welcome{
     font-size: 25px;
