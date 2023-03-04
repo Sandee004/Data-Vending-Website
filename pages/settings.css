@@ -33,7 +33,9 @@ body{
 }
 .navbar h2{
     text-align: center;
-    margin: auto 41vw auto 0;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .link{
